@@ -1,19 +1,20 @@
 # Collaborative Canvas: An Interactive Multi-User Space for Artistic Creation and Exploration 
 Author: Joseph Wu
 
-A virtual reality application enables you to draw in space by pinching your fingers, interact (grab, throw) with artwork, and mesh modeling an artifact. By integrating the advantages of multiplayer mode, players can interact, create, and explore 3D objects together.
+A virtual reality application allows users to engage with 3D objects through actions such as grabbing and throwing, utilizing the VR controller for artwork creation and mesh modeling. The incorporation of a multiplayer mode enhances collaborative experiences, enabling players to interact, collaborate, and collectively explore 3D objects.
 
 # User Narrative
 
 
 # Interface Description
+ •	Engage with 3D objects by pressing the grip controller button when close to the 3D object. It can throw and catch objects between users.
+ •	Oculus Integration Package Version 23.0
 
 
 # Built With
 •	Unity 2019.4.15f1
 •	Oculus Integration Package Version 23.0
 •	Deployed to Oculus Quest 3
-•	XR Interaction Toolkit
 •	Normcore Unity networking plugin (https://normcore.io/dashboard/app)
 
 
