@@ -1,4 +1,4 @@
-# Collaborative Canvas: An Interactive Multi-User Space for Artistic Creation and Exploration 
+# Collaborative Canvas: An Interactive Multi-User VR Space for 3d Creation and Exploration 
 Author: Joseph Wu
 
 A virtual reality application allows users to engage with 3D objects through actions such as grabbing and throwing, utilizing the VR controller for artwork creation and mesh modeling. The incorporation of a multiplayer mode enhances collaborative experiences, enabling players to interact, collaborate, and collectively explore 3D objects.
@@ -10,24 +10,24 @@ The main goal is to address the challenges in how designers typically work. Curr
 
 
 # Interface Description
- •	Engage with 3D objects by pressing the grip controller button when close to the 3D object. It can throw and catch objects between users.
- •	Create a discrete or continuous 3D mesh in freehand using a VR controller by pressing trigger button.
+  •	Engage with 3D objects by pressing the grip controller button when close to the 3D object. It can throw and catch objects between users.
+  •	Create a discrete or continuous 3D mesh in freehand using a VR controller by pressing trigger button.
 
 
 # Built With
- •	Unity 2019.4.15f1
- •	Oculus Integration Package Version 23.0
- •	Deployed to Oculus Quest 3
- •	Normcore Unity networking plugin (https://normcore.io/dashboard/app)
+  •	Unity 2019.4.15f1
+  •	Oculus Integration Package Version 23.0
+  •	Deployed to Oculus Quest 3
+  •	Normcore Unity networking plugin (https://normcore.io/dashboard/app)
 
 
 # How to use
- Get the Oculus and Controller ready
- Clone this repo
- Open the project in Unity
- Open the Multi-player scene
- Build and run the project
- Enjoy!
+  Get the Oculus and Controller ready
+  Clone this repo
+  Open the project in Unity
+  Open the Multi-player scene
+  Build and run the project
+  Enjoy!
 
 
 # Usage
