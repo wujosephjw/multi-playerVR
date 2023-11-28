@@ -22,12 +22,12 @@ The main goal is to address the challenges in how designers typically work. Curr
 
 
 # How to use
-  Get the Oculus and Controller ready
-  Clone this repo
-  Open the project in Unity
-  Open the Multi-player scene
-  Build and run the project
-  Enjoy!
+   1.	Get the Oculus and Controller ready
+   2.	Clone this repo
+   3.	Open the project in Unity
+   4.	Open the Multi-player scene
+   5.	Build and run the project
+   6.	Enjoy!
 
 
 # Usage
