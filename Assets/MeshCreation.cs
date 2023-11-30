@@ -6,6 +6,9 @@ public class MeshCreation : MonoBehaviour
     public GameObject leftController;
     public GameObject spherePrefab;
     public MeshFilter meshFilter;
+    public Material NewSphereMaterial;
+    public Material OldSphereMaterial;
+    private Renderer currSphereRender;
 
     private List<Vector3> positionsList = new List<Vector3>();
     private Mesh mesh;
@@ -14,6 +17,7 @@ public class MeshCreation : MonoBehaviour
     private int numOfLeftTrigger = 0;
     private int firstClosestPointIndex = -1;
     private int secondClosestPointIndex = -1;
+    private int gripClosestVerticesIndex = -1;
 
     void Start()
     {
@@ -49,6 +53,21 @@ public class MeshCreation : MonoBehaviour
         mesh.vertices = positionsList.ToArray();
         mesh.triangles = Triangulate(positionsList.ToArray());
         mesh.RecalculateNormals();
+    }
+
+    
+    public void getVerticesIndex()
+    {
+        Vector3 controllerPosition = leftController.transform.position;
+        gripClosestVerticesIndex = FindClosestPointIndex(positionsList.ToArray(), controllerPosition);
+
+    }
+
+    public void getVerticesIndexAndUpdate()
+    {
+        Vector3 controllerPosition = leftController.transform.position;
+        positionsList[gripClosestVerticesIndex] = controllerPosition;
+        UpdateMesh();
     }
 
     void AddPositionAndInstantiateSphere(Vector3 position)
@@ -100,10 +119,17 @@ public class MeshCreation : MonoBehaviour
         if (firstClosestPointIndex == -1 && secondClosestPointIndex == -1)
         {
             firstClosestPointIndex = FindClosestPointIndex(points, targetPoint);
+            
+            //Find Sphere and Change Color
+            FindAndChangeMaterial("MeshSphere", targetPoint);
+
         }
         else if (firstClosestPointIndex != -1 && secondClosestPointIndex == -1)
         {
             secondClosestPointIndex = FindClosestPointIndex(points, targetPoint);
+
+            //Find Sphere and Change Color
+            FindAndChangeMaterial("MeshSphere", targetPoint);
         }
     }
 
@@ -148,5 +174,28 @@ public class MeshCreation : MonoBehaviour
         }
 
         return closestPointIndex;
+    }
+
+    void FindAndChangeMaterial(string tagToSearch, Vector3 targetPoint)
+    {
+        GameObject[] spheresToSearch = GameObject.FindGameObjectsWithTag(tagToSearch);
+
+        foreach (GameObject sphere in spheresToSearch)
+        {
+            if (Vector3.Distance(sphere.transform.position, targetPoint) < 0.1f)
+            {
+                Renderer renderer = sphere.GetComponent<Renderer>();
+                currSphereRender = renderer;
+                if (renderer != null)
+                {
+                    renderer.material = NewSphereMaterial;
+                }
+            }
+        }
+    }
+
+    public void ChangeSphereColorBack()
+    {
+        currSphereRender.material = OldSphereMaterial;
     }
 }
