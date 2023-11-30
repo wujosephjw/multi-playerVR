@@ -1,7 +1,7 @@
-# Collaborative Canvas: An Interactive Multi-User VR Space for 3d Creation and Exploration 
+# Collaborative Canvas: An Interactive Multi-User VR Space for Mesh Creation 
 Author: Joseph Wu
 
-A virtual reality application allows users to engage with 3D objects through actions such as grabbing and throwing, utilizing the VR controller for artwork creation and mesh modeling. The incorporation of a multiplayer mode enhances collaborative experiences, enabling players to interact, collaborate, and collectively explore 3D objects.
+A virtual reality application allows users to engage with 3D objects through actions such as grabbing and throwing, utilizing the VR controller for mesh modeling. The incorporation of a multiplayer mode enhances collaborative experiences, enabling players to interact, collaborate, and collectively explore 3D objects.
 
 # User Narrative
 In today's design teams, people often collaborate from different locations. It's crucial for them to work seamlessly together and have an efficient way of testing their ideas. This application provides the ability to create 3D models and collaborate in VR, improving the design process.
@@ -41,10 +41,9 @@ To be updated
  1.	Basic VR setup (Done)
  2.	Multiplayer environment setup (Done)
  3.	Capture all the controller buttons input (Done)
- 4.	Teleportation (WIP)
- 5.	Grab, throw the Objects (Done)
- 6.	Draw in space (WIP)
- 7.	Mesh modeling (WIP)
+ 4.	Grab, throw the Objects (Done)
+ 5.	Mesh modeling (Done)
+ 6.	Mesh modifyinh (Done)
 
 
 # Acknowledgements
