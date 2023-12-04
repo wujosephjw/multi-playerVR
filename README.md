@@ -9,9 +9,17 @@ In today's design teams, people often collaborate from different locations. It's
 The main goal is to address the challenges in how designers typically work. Currently, they use drawings and various computer programs that don't communicate with each other. We aim to introduce a new type of computer program, known as virtual reality (VR) mesh modeling, to facilitate real-time collaboration among designers. The program is designed to simplify the collaborative process, facilitate discussions about designs, enable quick changes, and ensure inclusivity, allowing everyone to participate regardless of their level of expertise in 3D design.
 
 
-# Interface Description
-  •	Engage with 3D objects by pressing the grip controller button when close to the 3D object. It can throw and catch objects between users.
-  •	Create a discrete or continuous 3D mesh in freehand using a VR controller by pressing trigger button.
+# Interface Description:
+Interaction with 3D Object:
+  •	Users can engage with 3D objects by pressing the left controller's grip button when in close proximity. Pressing the button allows them to grab the 3D object, and releasing it lets go. This interaction leverages the force and gravity from the velocity speed of the controller's movement, enabling actions like throwing and catching objects between users. The properties of the 3D sphere and objects are shared among all users, facilitating multiplayer interaction.
+  
+Interaction with Mesh:
+  Creating a Continuous 3D Mesh:
+  •	Using a VR controller, users can create a continuous 3D mesh by pressing the left trigger button. Constructing a mesh face requires three vertices. Pressing the trigger button on the left controller generates a vertex, accompanied by the creation of a sphere for visualization. Upon creating three vertices, a mesh face is automatically formed. To continue the mesh creation, users select two existing vertices by pressing the left controller's trigger button, and the third vertex completes the mesh, allowing the creation process to persist.
+
+  Modifying the Vertices of a Continuous 3D Mesh:
+  •	During the creation and discussion process, users may wish to modify the mesh. To achieve this, users can adjust the vertex position by pressing the left controller's grip button. The corresponding sphere moves in alignment with the controller's location. Upon releasing the button, the updated modified mesh is saved.
+  
 
 
 # Built With
@@ -28,10 +36,7 @@ The main goal is to address the challenges in how designers typically work. Curr
    4.	Open the Multi-player scene
    5.	Build and run the project
    6.	Enjoy!
-
-
-# Usage
-
+    
 
 # Known Bugs
 To be updated
@@ -43,7 +48,7 @@ To be updated
  3.	Capture all the controller buttons input (Done)
  4.	Grab, throw the Objects (Done)
  5.	Mesh modeling (Done)
- 6.	Mesh modifyinh (Done)
+ 6.	Mesh modifying (Done)
 
 
 # Acknowledgements
