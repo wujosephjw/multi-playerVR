@@ -8,6 +8,16 @@ In today's design teams, people often collaborate from different locations. It's
 
 The main goal is to address the challenges in how designers typically work. Currently, they use drawings and various computer programs that don't communicate with each other. We aim to introduce a new type of computer program, known as virtual reality (VR) mesh modeling, to facilitate real-time collaboration among designers. The program is designed to simplify the collaborative process, facilitate discussions about designs, enable quick changes, and ensure inclusivity, allowing everyone to participate regardless of their level of expertise in 3D design.
 
+# Problem and Solution
+Problems:  
+Users without 3D modeling software training encounter challenges:  
+Lack of a straightforward method for mesh creation.  
+Absence of a collaborative environment for 3D objects.  
+
+Our solution includes:  
+A multiplayer environment for effective collaboration.  
+A dedicated VR app for mesh modeling, facilitating mesh creation and modification.  
+
 
 # Interface Description:  
 Interaction with 3D Object:  
