@@ -49,7 +49,8 @@ Interaction with Mesh:
 
 
 # Potential Future Direction and Known Bugs
-  - Currently limited to one mesh creation, but potential for multiples.  
+  - Currently limited to one mesh creation, but potential for multiples.
+  - Ability to delete vertice.  
   - Possible scaling, transforming, and rotating of the mesh.  
   - Ability to change mesh color or apply different materials.  
   - Potential for adding UI, text, and voice for collaboration.  
