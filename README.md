@@ -12,6 +12,7 @@ The main goal is to address the challenges in how designers typically work. Curr
 # Interface Description:  
 Interaction with 3D Object:  
   •	Users can engage with 3D objects by pressing the left controller's grip button when in close proximity. Pressing the button allows them to grab the 3D object, and releasing it lets go. This interaction leverages the force and gravity from the velocity speed of the controller's movement, enabling actions like throwing and catching objects between users. The properties of the 3D sphere and objects are shared among all users, facilitating multiplayer interaction.  
+
   
 Interaction with Mesh:  
   Creating a Continuous 3D Mesh:  
@@ -36,10 +37,6 @@ Interaction with Mesh:
    4.	Open the Multi-player scene
    5.	Build and run the project
    6.	Enjoy!
-    
-
-# Known Bugs
-To be updated
 
 
 # Roadmap
@@ -51,11 +48,18 @@ To be updated
  6.	Mesh modifying (Done)
 
 
+# Potential Future Direction and Known Bugs
+  - Currently limited to one mesh creation, but potential for multiples.  
+  - Possible scaling, transforming, and rotating of the mesh.  
+  - Ability to change mesh color or apply different materials.  
+  - Potential for adding UI, text, and voice for collaboration.  
+
+
 # Acknowledgements
-  Acknowledgements of 3rd party scripts are in the scripts.  
-  Normcore asset are purchased from Unity Asset Store and modified by me.   
-  Credit to @dilmerv github code to help capturing all the controllers' input https://github.com/dilmerv/XRInputExamples  
-  Credit to the tutorial, setting up the multiplayer vr environment https://www.youtube.com/playlist?list=PLa739g934GxzKAgp_VPAf4niwI68_5Jq2  
-  Mixed Reality Toolkit is an open-source software development kit developed by Microsoft and modified by me.  
+  Acknowledgments for third-party scripts are included within the scripts.  
+  Normcore assets were purchased from the Unity Asset Store and modified by me.  
+  Credit goes to @dilmerv for the GitHub code that helped capture all the controllers' input: https://github.com/dilmerv/XRInputExamples  
+  Credit is given to the tutorial for setting up the multiplayer VR environment: https://www.youtube.com/playlist?list=PLa739g934GxzKAgp_VPAf4niwI68_5Jq2  
+  
 
  
