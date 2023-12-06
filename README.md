@@ -3,6 +3,8 @@ Author: Joseph Wu
 
 A virtual reality application allows users to engage with 3D objects through actions such as grabbing and throwing, utilizing the VR controller for mesh modeling. The incorporation of a multiplayer mode enhances collaborative experiences, enabling players to interact, collaborate, and collectively explore 3D objects.
 
+Creating and Modifying a 3D mesh  
+https://www.youtube.com/watch?v=UvvgfI_CNDE  
 [![Video Demo](https://img.youtube.com/vi/UvvgfI_CNDE/0.jpg)](https://www.youtube.com/watch?v=UvvgfI_CNDE)
 
 
