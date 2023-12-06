@@ -5,11 +5,11 @@ A virtual reality application allows users to engage with 3D objects through act
 
 Creating and Modifying a 3D mesh  
 https://www.youtube.com/watch?v=UvvgfI_CNDE  
-[![Video Demo](https://img.youtube.com/vi/UvvgfI_CNDE/0.jpg)](https://www.youtube.com/watch?v=UvvgfI_CNDE)
+[![Video Demo](https://img.youtube.com/vi/UvvgfI_CNDE/0.jpg)](https://www.youtube.com/watch?v=UvvgfI_CNDE)  
 
-Throw and Catch
-https://www.youtube.com/watch?v=Qcgz6K8iyjM
-[![Video Demo](https://img.youtube.com/vi/Qcgz6K8iyjM/0.jpg)](https://www.youtube.com/watch?v=Qcgz6K8iyjM)
+Throw and Catch  
+https://www.youtube.com/watch?v=Qcgz6K8iyjM  
+[![Video Demo](https://img.youtube.com/vi/Qcgz6K8iyjM/0.jpg)](https://www.youtube.com/watch?v=Qcgz6K8iyjM)  
 
 
 
