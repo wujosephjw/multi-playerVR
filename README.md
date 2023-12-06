@@ -44,7 +44,7 @@ Interaction with Mesh:
    1.	Get the Oculus and Controller ready
    2.	Clone this repo
    3.	Open the project in Unity
-   4.	Open the Multi-player scene
+   4.	Open the /multi-player Scene Scene
    5.	Build and run the project
    6.	Enjoy!
 
