@@ -30,6 +30,7 @@ A dedicated VR app for mesh modeling, facilitating mesh creation and modificatio
 
 
 # Interface Description:  
+
 Interaction with 3D Object:  (pressing the left or right controller's grip button)  
   •	Users can engage with 3D objects by **pressing the left or right controller's grip button** when in close proximity. Pressing the button allows them to grab the 3D object, and releasing it lets go. This interaction leverages the force and gravity from the velocity speed of the controller's movement, enabling actions like throwing and catching objects between users. The properties of the 3D sphere and objects are shared among all users, facilitating multiplayer interaction.  
 
@@ -37,6 +38,7 @@ Interaction with 3D Object:  (pressing the left or right controller's grip butto
 Interaction with Mesh:  
   Creating a Continuous 3D Mesh:  (pressing the left controller's trigger button)  
   •	Using a VR controller, users can create a continuous 3D mesh by **pressing the left trigger button**. Constructing a mesh face requires three vertices. Pressing the trigger button on the left controller generates a vertex, accompanied by the creation of a sphere for visualization. Upon creating three vertices, a mesh face is automatically formed. To continue the mesh creation, users **select two existing vertices** by pressing the left controller's trigger button, and the third vertex completes the mesh, allowing the creation process to persist.  
+
 
   Modifying the Vertices of a Continuous 3D Mesh:  (pressing the left controller's grip button)  
   •	During the creation and discussion process, users may wish to modify the mesh. To achieve this, users can adjust the vertex position by **pressing the left controller's grip button**. The corresponding sphere moves in alignment with the controller's location. Upon releasing the button, the updated modified mesh is saved.  
